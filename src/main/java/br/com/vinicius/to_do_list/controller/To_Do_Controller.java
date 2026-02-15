@@ -1,3 +1,8 @@
+//PORTA DE ENTRADA DO SISTEMA.
+//Comunicação externa.
+//Chamada de métodos do serviço.
+//Retorno de dados para o cliente (API).
+
 package br.com.vinicius.to_do_list.controller;
 
 import java.util.List;
@@ -17,8 +22,10 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/to_dos")
 public class To_Do_Controller {
+
     private To_Do_Service to_do_service;
 
+    
     public To_Do_Controller(To_Do_Service to_do_service) {
         this.to_do_service = to_do_service;
     }

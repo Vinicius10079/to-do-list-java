@@ -1,3 +1,6 @@
+//ENTIDADE
+//Equivalência de tabela do banco de dados.
+
 package br.com.vinicius.to_do_list.entity;
 
 import jakarta.persistence.GeneratedValue;

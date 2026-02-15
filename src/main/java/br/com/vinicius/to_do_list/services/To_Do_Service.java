@@ -1,11 +1,14 @@
+//REGRAS DE NEGÓCIO.
+//Comunicação com o banco de dados (por meio do repositório).
+
 package br.com.vinicius.to_do_list.services;
 
 import java.util.List;
-
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import br.com.vinicius.to_do_list.entity.To_Do;
 import br.com.vinicius.to_do_list.repository.To_Do_Repository;
+
 
 @Service
 public class To_Do_Service {
