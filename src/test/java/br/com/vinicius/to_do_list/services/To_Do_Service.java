@@ -34,8 +34,8 @@ public class To_Do_Service {
 
     public List<To_Do> update(To_Do to_do){
         to_do_repository.save(to_do);
-        return list();
 
+        return list();
     }
 
     public List<To_Do> delete(Long id){
