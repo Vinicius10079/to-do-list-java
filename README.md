@@ -12,6 +12,7 @@ Um projeto de gerenciamento de lista de tarefas (CRUD) desenvolvido com Java e S
 - SpringDoc OpenAPI 3 (Swagger)  
 - MySQL  
 - H2 Database (para testes)
+- Docker (conteinerização)
 
 ---
 
